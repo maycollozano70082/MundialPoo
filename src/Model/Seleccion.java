@@ -12,7 +12,7 @@ public class Seleccion {
   public  Seleccion(String nombre,String confederacion, DirectorTecnico tecnico){
       this.nombre = nombre;
       this.confederacion = confederacion;
-      this.tecnico = this.tecnico;
+      this.tecnico = tecnico;
       this.jugadors = new ArrayList<>();
   }
 public void agregarJugador(Jugador jugador){
